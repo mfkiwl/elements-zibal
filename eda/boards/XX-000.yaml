@@ -1,0 +1,6 @@
+common:
+  SOC: Carbon1
+  top: XX-000_top
+  testbench: XX-000_tb
+cadence:
+  process: 350.0
