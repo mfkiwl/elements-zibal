@@ -23,8 +23,10 @@ wire  io_spi0_mosi;
 bit   io_spi0_miso;
 wire  io_i2c0_scl;
 wire  io_i2c0_sda;
+/*
 bit   io_freqCounter0_clock;
 clock #(.CLK_PERIOD(2)) gen_io_freqCOunter0_clock (io_freqCounter0_clock);
+*/
 
 TH283_top TOP (
 	.io_clock(io_clock),
@@ -43,8 +45,9 @@ TH283_top TOP (
 	.io_spi0_mosi(io_spi0_mosi),
 	.io_spi0_miso(io_spi0_miso),
 	.io_i2c0_scl(io_i2c0_scl),
-	.io_i2c0_sda(io_i2c0_sda),
+	.io_i2c0_sda(io_i2c0_sda)/*,
 	.io_freqCounter0_clock(io_freqCounter0_clock)
+*/
 );
 
 endmodule

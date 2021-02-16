@@ -45,4 +45,4 @@ set_property -dict { PACKAGE_PIN G14  IOSTANDARD LVCMOS33 } [get_ports { io_i2c0
 set_property -dict { PACKAGE_PIN F14  IOSTANDARD LVCMOS33 } [get_ports { io_i2c0_sda }];
 
 ## Frequency Counter
-set_property -dict { PACKAGE_PIN F4   IOSTANDARD LVCMOS33 } [get_ports { io_freqCounter0_clock }];
+#set_property -dict { PACKAGE_PIN F4   IOSTANDARD LVCMOS33 } [get_ports { io_freqCounter0_clock }];
